@@ -1,0 +1,44 @@
+body{
+	background-image: url();
+	background-size: cover;
+}
+section{
+	background-color: rgb(255,255,255,0.5);
+	width: 50%
+	margin-left:25%;
+	border-radius: 10px;
+	height: 250px;
+	margin-top: 100px;
+}
+form{
+	text-align: center;
+}
+div{
+	padding: 10px;
+	text-align: center;
+}
+.Galeria{
+	width: 99%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap; 
+}
+
+.Galeria li{
+	margin: 5px;
+}
+
+.Galeria img{
+	width: 600px;
+	height:400px;
+}
+
+.PDF {
+	width: 600px
+	height:300px
+}
